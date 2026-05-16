@@ -1,0 +1,16 @@
+{
+  "name": "ulrischa/chatgpt-html-export-api",
+  "description": "Render ChatGPT answers or full chat transcripts to standalone HTML pages for Custom GPT Actions.",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "ext-dom": "*",
+    "ext-json": "*",
+    "league/commonmark": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChatGptHtmlExport\\": "src/"
+    }
+  }
+}
